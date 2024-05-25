@@ -1,0 +1,544 @@
+/* --------------------------- ПЕРВАЯ СЕКЦИЯ ""УСЛУГИ + СТОИМОСТЬ" ----------------------------------- */
+.services {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    background: url(../img/flowers/лист.png) 150px 200px/200px no-repeat,
+        url(../img/flowers/collection-of-fresh-rose-petals-and-plant-twigs.png) 1000px 0/80px no-repeat,
+        url(../img/flowers/collection-of-fresh-rose-petals-and-plant-twigs1.png) 500px 650px/30px no-repeat,
+        url(../img/flowers/collection-of-fresh-rose-petals-and-plant-twigs1_levo.png) 1500px 600px/70px no-repeat,
+        url(../img/flowers/цветов\ копия.png) 1400px 90px/150px no-repeat,
+        url(../img/flowers/0_5063c_a68a1594_XL\ \ копия.png) 1530px 50px/150px no-repeat;
+}
+
+.services h3 {
+    width: 322px;
+    position: relative;
+    z-index: 2;
+}
+
+.services .circle {
+    position: absolute;
+    z-index: 1;
+    margin-top: -170px;
+    margin-left: 30px;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.choice li {
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.choice ul>li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box {
+    font-weight: bold;
+}
+
+.hairSegment,
+.makeUpSegment,
+.epilationSegment,
+.cosmetologySegment,
+.massageSegment,
+.manicureSegment,
+.eyelashesSegment,
+.eyebrowsSegment {
+    margin-left: 40px;
+    display: none;
+}
+
+
+.haircut,
+.hairСare,
+.coloring,
+.artMakeUp,
+.makeUp,
+.facialСare,
+.waxing,
+.hairRemovalWithSugar,
+.laserHairRemoval,
+.cosmetologyAcademia,
+.cosmetologyLoft,
+.massage,
+.spa,
+.manicure,
+.pedicure,
+.extensions,
+.podolog,
+.laminationEyelashes,
+.coloringEyelashes,
+.laminationEyebrows,
+.extensionsEyelashes,
+.correctionEyelashes,
+.removeEyelashes,
+.correctionEyebrows,
+.coloringEyebrows,
+.laminationEyebrows {
+    display: none;
+}
+
+.services .line {
+    border: 1px solid #a1a1a1;
+    width: 0px;
+    height: 430px;
+    display: inline-block;
+}
+
+.service {
+    width: 509px;
+}
+
+.segment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service p {
+    margin-bottom: 5px;
+}
+
+.segment {
+    padding-bottom: 5px;
+}
+
+.segment:last-child {
+    margin-bottom: 10px;
+}
+
+.dark {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    overflow: auto;
+    display: none;
+}
+
+.modal {
+    width: 40%;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.modal-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.modal-head p {
+    font-size: 38px;
+}
+
+.modal-head img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding-top: 30px;
+}
+
+.modal-body p {
+    font-size: 21px;
+}
+
+.opn {
+    display: block;
+}
+
+.close {
+    display: none;
+}
+
+
+.sliderMastersHair,
+.sliderMastersEpilation,
+.sliderMastersEyebrows,
+.sliderMastersEyelashes,
+.sliderMastersMakeUp,
+.sliderMastersMassage,
+.sliderMastersNail,
+.sliderMastersСosmetology {
+    display: none;
+}
+
+#reg {
+    margin: 0 auto;
+}
+
+.open {
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.unblock {
+    display: block;
+}
+
+.segment p:first-child {
+    width: 300px;
+}
+
+.slMastersHair>.block:first-child>.rectangle {
+    background: #f2e9bd url(../img/masters/hair1.png) -390px 0/700px no-repeat;
+}
+
+.slMastersHair>.block:nth-child(2)>.rectangle {
+    background: #f2e9bd url(../img/masters/hair2.png) -390px 0/700px no-repeat;
+}
+
+.slMastersHair>.block:last-child>.rectangle {
+    background: #f2e9bd url(../img/masters/hair3.png) -150px 0/600px no-repeat;
+}
+
+.slMastersMakeUp>.block:first-child>.rectangle {
+    background: #f2e9bd url(../img/masters/makeup1.png) -200px 0/700px no-repeat;
+}
+
+.slMastersMakeUp>.block:nth-child(2)>.rectangle {
+    background: #f2e9bd url(../img/masters/makeup2.png) -200px 0/700px no-repeat;
+}
+
+.slMastersMakeUp>.block:last-child>.rectangle {
+    background: #f2e9bd url(../img/masters/makeup3.png) -150px 0/600px no-repeat;
+}
+
+.slMastersEpilation>.block:first-child>.rectangle {
+    background: #f2e9bd url(../img/masters/epilation2.png) -130px 0/700px no-repeat;
+}
+
+.slMastersEpilation>.block:nth-child(2)>.rectangle {
+    background: #f2e9bd url(../img/masters/epilation1.png) -200px 0/700px no-repeat;
+}
+
+.slMastersEpilation>.block:last-child>.rectangle {
+    background: #f2e9bd url(../img/masters/epilation3.png) -140px -50px/750px no-repeat;
+}
+
+.slMastersСosmetology>.block:first-child>.rectangle {
+    background: #f2e9bd url(../img/masters/cosmetology1.png) -200px 0/700px no-repeat;
+}
+
+.slMastersСosmetology>.block:nth-child(2)>.rectangle {
+    background: #f2e9bd url(../img/masters/cosmetology2.png) -220px 0/700px no-repeat;
+}
+
+.slMastersСosmetology>.block:last-child>.rectangle {
+    background: #f2e9bd url(../img/masters/cosmetology3.png) -170px 0px/600px no-repeat;
+}
+
+.slMastersMassage>.block:first-child>.rectangle {
+    background: #f2e9bd url(../img/masters/massage1.png) -300px 30px/700px no-repeat;
+}
+
+.slMastersMassage>.block:nth-child(2)>.rectangle {
+    background: #f2e9bd url(../img/masters/massage2.png) -220px -30px/700px no-repeat;
+}
+
+.slMastersMassage>.block:last-child>.rectangle {
+    background: #f2e9bd url(../img/masters/massage3.png) -300px 0px/600px no-repeat;
+}
+
+.slMastersNail>.block:first-child>.rectangle {
+    background: #f2e9bd url(../img/masters/nail1.png) -320px -20px/700px no-repeat;
+}
+
+.slMastersNail>.block:nth-child(2)>.rectangle {
+    background: #f2e9bd url(../img/masters/nail2.png) -230px 0px/700px no-repeat;
+}
+
+.slMastersNail>.block:last-child>.rectangle {
+    background: #f2e9bd url(../img/masters/nail3.png) -170px 30px/600px no-repeat;
+}
+
+.slMastersEyebrows>.block:first-child>.rectangle {
+    background: #f2e9bd url(../img/masters/brow1.png) -240px 0px/700px no-repeat;
+}
+
+.slMastersEyebrows>.block:nth-child(2)>.rectangle {
+    background: #f2e9bd url(../img/masters/brow2.png) -230px 0px/700px no-repeat;
+}
+
+.slMastersEyebrows>.block:last-child>.rectangle {
+    background: #f2e9bd url(../img/masters/brow3.png) -170px 30px/600px no-repeat;
+}
+
+.slMastersEyelashes>.block:first-child>.rectangle {
+    background: #f2e9bd url(../img/masters/lash1.png) -220px 0px/700px no-repeat;
+}
+
+.slMastersEyelashes>.block:nth-child(2)>.rectangle {
+    background: #f2e9bd url(../img/masters/lash2.png) -130px 0px/700px no-repeat;
+}
+
+.slMastersEyelashes>.block:last-child>.rectangle {
+    background: #f2e9bd url(../img/masters/lash3.png) -230px 20px/700px no-repeat;
+}
+
+/* --------------------------- ТРЕТЬЯ СЕКЦИЯ "БЕСКОНЕЧНЫЙ СЛАЙДЕР" ----------------------------------- */
+.slider {
+    margin-bottom: 100px;
+}
+
+:root {
+    --marquee-width: 100%;
+    --marquee-height: 20vh;
+    --marquee-elements-displayed: 8;
+    --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+    --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
+.marquee {
+    width: var(--marquee-width);
+    height: var(--marquee-height);
+    color: #eee;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee:before,
+.marquee:after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+
+.marquee-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements)));
+    }
+}
+
+.marquee-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: var(--marquee-element-width);
+    max-height: 100%;
+    font-size: calc(var(--marquee-height)*3/4);
+    white-space: nowrap;
+    margin-right: 30px;
+}
+
+.marquee-content li img {
+    width: 100%;
+    border: 2px solid #eee;
+}
+
+@media (min-width: 360px) and (max-width:1024px) {
+.services{
+    display: none;
+}
+    .slMastersHair,
+    .slMastersEpilation,
+    .slMastersEyebrows,
+    .slMastersEyelashes,
+    .slMastersMakeUp,
+    .slMastersMassage,
+    .slMastersNail,
+    .slMastersСosmetology {
+        margin: 0 20px 20px 20px;
+    }
+
+    .slMastersHair>.block:first-child>.rectangle {
+        background: #f2e9bd url(../img/masters/hair1.png) -230px 0/400px no-repeat;
+    }
+
+    .slMastersHair>.block:nth-child(2)>.rectangle {
+        background: #f2e9bd url(../img/masters/hair2.png) -230px 0/400px no-repeat;
+    }
+
+    .slMastersHair>.block:last-child>.rectangle {
+        background: #f2e9bd url(../img/masters/hair3.png) -100px 10px/370px no-repeat;
+    }
+
+    .slMastersMakeUp>.block:first-child>.rectangle {
+        background: #f2e9bd url(../img/masters/makeup1.png) -120px 0/400px no-repeat;
+    }
+
+    .slMastersMakeUp>.block:nth-child(2)>.rectangle {
+        background: #f2e9bd url(../img/masters/makeup2.png) -120px 0/400px no-repeat;
+    }
+
+    .slMastersMakeUp>.block:last-child>.rectangle {
+        background: #f2e9bd url(../img/masters/makeup3.png) -130px 0/400px no-repeat;
+    }
+
+    .slMastersEpilation>.block:first-child>.rectangle {
+        background: #f2e9bd url(../img/masters/epilation2.png) -80px 0/400px no-repeat;
+    }
+
+    .slMastersEpilation>.block:nth-child(2)>.rectangle {
+        background: #f2e9bd url(../img/masters/epilation1.png) -120px 0/400px no-repeat;
+    }
+
+    .slMastersEpilation>.block:last-child>.rectangle {
+        background: #f2e9bd url(../img/masters/epilation3.png) -100px -30px/450px no-repeat;
+    }
+
+    .slMastersСosmetology>.block:first-child>.rectangle {
+        background: #f2e9bd url(../img/masters/cosmetology1.png) -130px 0/400px no-repeat;
+    }
+
+    .slMastersСosmetology>.block:nth-child(2)>.rectangle {
+        background: #f2e9bd url(../img/masters/cosmetology2.png) -130px 0/400px no-repeat;
+    }
+
+    .slMastersСosmetology>.block:last-child>.rectangle {
+        background: #f2e9bd url(../img/masters/cosmetology3.png) -150px 0px/400px no-repeat;
+    }
+
+    .slMastersMassage>.block:first-child>.rectangle {
+        background: #f2e9bd url(../img/masters/massage1.png) -180px 30px/400px no-repeat;
+    }
+
+    .slMastersMassage>.block:nth-child(2)>.rectangle {
+        background: #f2e9bd url(../img/masters/massage2.png) -140px 0px/400px no-repeat;
+    }
+
+    .slMastersMassage>.block:last-child>.rectangle {
+        background: #f2e9bd url(../img/masters/massage3.png) -220px -20px/400px no-repeat;
+    }
+
+    .slMastersNail>.block:first-child>.rectangle {
+        background: #f2e9bd url(../img/masters/nail1.png) -190px 0px/400px no-repeat;
+    }
+
+    .slMastersNail>.block:nth-child(2)>.rectangle {
+        background: #f2e9bd url(../img/masters/nail2.png) -130px 0px/400px no-repeat;
+    }
+
+    .slMastersNail>.block:last-child>.rectangle {
+        background: #f2e9bd url(../img/masters/nail3.png) -140px 10px/400px no-repeat;
+    }
+
+    .slMastersEyebrows>.block:first-child>.rectangle {
+        background: #f2e9bd url(../img/masters/brow1.png) -140px 0px/400px no-repeat;
+    }
+
+    .slMastersEyebrows>.block:nth-child(2)>.rectangle {
+        background: #f2e9bd url(../img/masters/brow2.png) -130px 0px/400px no-repeat;
+    }
+
+    .slMastersEyebrows>.block:last-child>.rectangle {
+        background: #f2e9bd url(../img/masters/brow3.png) -130px 10px/400px no-repeat;
+    }
+
+    .slMastersEyelashes>.block:first-child>.rectangle {
+        background: #f2e9bd url(../img/masters/lash1.png) -120px 0px/400px no-repeat;
+    }
+
+    .slMastersEyelashes>.block:nth-child(2)>.rectangle {
+        background: #f2e9bd url(../img/masters/lash2.png) -70px 0px/400px no-repeat;
+    }
+
+    .slMastersEyelashes>.block:last-child>.rectangle {
+        background: #f2e9bd url(../img/masters/lash3.png) -140px 10px/400px no-repeat;
+    }
+
+@media (min-width:768px) and (max-width:1024px) {
+    .services {
+        margin-top: 40px;
+        margin-bottom: 88px;
+    }
+
+    .services h3 {
+        font-size: 48px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .services .circle {
+        margin-top: -110px;
+        margin-left: 40%;
+    }
+
+    .service {
+        margin-left: 20px;
+        width: 512px;
+    }
+
+    .choice {
+        margin-right: 20px;
+    }
+
+    .masters h3 {
+        font-size: 48px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .masters .circle {
+        margin-top: -137px;
+        margin-left: 298px;
+    }
+
+    .text {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .masters p {
+        margin: 0 auto;
+    }
+
+    .rectangle {
+        width: 213px;
+        height: 278px;
+    }
+
+    :root {
+        --marquee-width: 100vw;
+        --marquee-height: 16vh;
+        --marquee-elements-displayed: 5;
+    }
+
+}
+}

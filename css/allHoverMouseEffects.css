@@ -1,0 +1,88 @@
+header li:after {
+    background-color: #f2e9bd;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+header li>a:hover,
+footer li>a:hover {
+    color: #333333;
+}
+
+header li:hover:after,
+header li:focus:after,
+footer ul:first-child li:hover:after,
+footer ul:first-child li:focus:after {
+    width: 100%;
+}
+
+footer ul:first-child li:after {
+    background-color: #333333;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+/* --------------------------- ИЗМЕНЕНИЕ ЦВЕТА + ПОЛУЖИРНОСТИ ТЕКСТА ------------------------------------*/
+.tel:hover,
+header h2 a:hover,
+footer h2 a:hover {
+    color: #18181879;
+    font-weight: bold;
+}
+
+footer i:hover {
+    color: #333333;
+}header li:after {
+    background-color: #f2e9bd;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+header li>a:hover,
+footer li>a:hover {
+    color: #333333;
+}
+
+header li:hover:after,
+header li:focus:after,
+footer ul:first-child li:hover:after,
+footer ul:first-child li:focus:after {
+    width: 100%;
+}
+
+footer ul:first-child li:after {
+    background-color: #333333;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.tel:hover,
+header h2 a:hover,
+footer h2 a:hover {
+    color: #18181879;
+    font-weight: bold;
+}
+
+footer i:hover {
+    color: #333333;
+}

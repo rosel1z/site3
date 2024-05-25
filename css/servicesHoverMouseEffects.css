@@ -1,0 +1,47 @@
+.box:after,
+.module:after,
+.master:after {
+    background-color: #f2e9bd;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.box:hover:after,
+.box:focus:after,
+.module:hover:after,
+.module:focus:after,
+.master:hover:after,
+.master:focus:after {
+    width: 100%;
+}
+
+.service a:after,
+#reg:after {
+    transition: margin .2s;
+    margin-left: 7px;
+    content: '\279E';
+    font-family: 'FontAwesome';
+    display: inline-block;
+}
+
+.service a:hover,
+#reg:hover {
+    color: white;
+    background-color: #a1a1a1;
+}
+
+.service a:hover:after,
+#reg:hover:after {
+    margin-left: 12px;
+    color: white;
+}
+
+
+.block a:hover {
+    color: #18181879;
+}

@@ -1,0 +1,50 @@
+.box:after {
+    background-color: #f2e9bd;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.box:hover:after,
+.box:focus:after {
+    width: 100%;
+}
+
+.atmosphere a:after,
+.discount a:after,
+.gift a:after,
+.price a:after,
+.signUp button:after {
+    transition: margin .2s;
+    margin-left: 7px;
+    content: '\279E';
+    font-family: 'FontAwesome';
+    display: inline-block;
+}
+
+.atmosphere a:hover,
+.discount a:hover,
+.gift a:hover,
+.price a:hover,
+.signUp button:hover {
+    color: white;
+    background-color: #a1a1a1;
+}
+
+
+.atmosphere a:hover:after,
+.discount a:hover:after,
+.gift a:hover:after,
+.price a:hover:after,
+.signUp button:hover:after {
+    margin-left: 12px;
+    color: white;
+}
+
+.acquaintance i:hover {
+    color: #333333;
+}
